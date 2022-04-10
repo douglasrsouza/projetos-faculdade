@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: calibri, sans serif;
+	font-size: 18px;
+}
+
+#menu {
+	background-color: #99E2F2; 
+	line-height: 60px;
+	display: block;
+	width: 100%;
+	position: fixed;
+}
+
+#menu li{
+	display: inline;	
+}
+
+#menu a:link, a:visited{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #F2778D;
+	font-weight: 600;
+	
+	font-size: 20px;
+	padding: 20px;
+}
+
+#menu a:hover, a:active{
+	background-color: #DCEEF2;
+	color: #F2778D;
+	text-shadow: #FFF 1px 1px;
+}
+
+#banner{
+	background-image: url("../images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+h1{
+	padding-top:50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#about{
+	background-color: #F2CD5E;
+	height: 600px;
+	font-size: 2.0em;
+	padding: 30px;
+	text-align: justify;
+}
+
+#gallery{
+	background-color: #DCEEF2;
+	height: 800px;
+	font-size: 2.0em;
+	padding: 30px;
+	text-align: center;
+}
+
+.galeria{
+	width: 350px;
+	height: 250px;
+	border: 2px #FFF solid;
+	border-radius: 10px;
+	margin: 20px;
+	box-shadow: 1px 1px 15px #FFF;
+}
+
+#simbolos{
+	background-color: #F2DEA0;
+	height: 800px;
+	font-size: 1.8em;
+	padding: 30px;
+	text-align: justify;
+}
+
+#contacts{
+	background-color: #F2778D;
+	height: 800px;
+	font-size: 2.0em;
+	padding: 30px;
+	text-align: center;
+}
+
+#contacts label{
+	display: block;
+}
+
+#contacts input, textarea{
+	width: 400px;
+	padding: 5px;
+	font-size: 0.7em;
+	font-family: arial;
+	margin-bottom: 10px;
+}
+
+#contacts button{
+	background-color: #F2CD5E;
+	color: #000;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+#contacts button:hover{
+	background-color: #000;
+	color: #F2CD5E;
+	padding: 30;
+
+}
+
+footer{
+	background-color: #F2DEA0;
+	color: #000;
+	text-align: center;
+	padding: 15px;
+}
