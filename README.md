@@ -1,2 +1,2 @@
 # projetos-faculdade
- Exercícios passados em sala de aula e realizados.
+ exercícios passados em sala de aula e realizados.
